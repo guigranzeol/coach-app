@@ -15,5 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/test', function (Request $request) {
-    return 'Wellingtvvvon';
+    return 'Wellington Martins dos Santos';
+});
+
+
+
+Route::get('', function (Request $request) {
+    return 'Hello World';
 });
